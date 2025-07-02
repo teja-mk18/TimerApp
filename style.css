@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #e3f0ff 0%, #c9e7ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background: #fff;
+  padding: 32px 44px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(52, 120, 246, 0.13);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  border: 1.5px solid #b3d1fa;
+}
+
+h1, h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2456a6;
+  letter-spacing: 1px;
+}
+
+#timer-text, #timer-display {
+  font-size: 2.2rem;
+  margin: 20px 0;
+  color: #2456a6;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#time-input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #b3d1fa;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #f7fbff;
+  color: #2456a6;
+}
+
+button {
+  background-color: #3478f6;
+  color: white;
+  padding: 10px 18px;
+  margin: 8px 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(52, 120, 246, 0.07);
+}
+
+button:hover {
+  background-color: #2456a6;
+  transform: translateY(-2px) scale(1.04);
+}
+
+#root p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #3478f6;
+  font-weight: 500;
+}
